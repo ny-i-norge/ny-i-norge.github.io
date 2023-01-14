@@ -1,0 +1,23 @@
+site_name: Ny i Norge
+theme:
+  name: material
+  language: ru
+  logo: assets/norway-icon.svg
+  favicon: assets/favicon.png
+  features:
+    - navigation.tracking
+    - navigation.tabs
+    - navigation.sections
+nav:
+  - Заглавная страница: 'index.md'
+  - О проекте: 'about.md'
+  - Bompenger: 'guide/bompenger.md'
+
+plugins:
+  - search
+
+markdown_extensions:
+- attr_list
+- footnotes
+
+copyright: Copyright &copy; 2023 Ny i Norge
