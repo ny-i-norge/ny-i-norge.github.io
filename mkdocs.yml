@@ -19,5 +19,7 @@ plugins:
 markdown_extensions:
 - attr_list
 - footnotes
+- toc:
+      permalink: true
 
 copyright: Copyright &copy; 2023 Ny i Norge
